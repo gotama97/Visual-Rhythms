@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    background-color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-img {
+    /* The image used */
+    background-image: url("vr-w-text.png");
+  
+    height: 100%;
+  width: 98%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+  
+    /* Needed to position the navbar */
+    position: relative;
+    left: 10px;
+
+  }
+  #logo{
+      cursor: unset;
+  }
+  .navbar-brand{
+    font-size: 3rem;
+  }
